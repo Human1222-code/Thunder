@@ -1,0 +1,535 @@
+<!Doctype html>
+<html>
+  <head>
+      <title>THUNDER</title>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="style.css">
+      
+      <!-- Bootstrap CSS Link -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+      
+      <!-- Bootstrap JavaScript Link -->    
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+     <!-- Bootstrap icons Link -->
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+      <!-- Sweet Alert Link -->
+      <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+      
+      <!-- JavaScript File -->
+      <script src="main.js"></script>
+      
+  </head>
+<body class="bg-dark text-light">
+    
+<!-- ----------------------Navbar ---------------------- -->
+ <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background: #212529">
+
+     <div class="container-fluid">
+         <a class="navbar-brand" href="index.html" style="color:orange"><b>THUNDER</b></a>
+
+          <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+         
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="navbar-nav">
+                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="players.html">Players</a>
+                <a class="nav-link" href="clips.html">Clips</a>
+                <a class="nav-link" href="books.html">Books</a>
+              </div>
+         </div>
+     </div>
+ </nav>
+    <div style="margin-bottom:60px;"></div>
+
+<!-- ----------------------Navbar ends---------------------- -->
+
+<!------------------ Carousel -------------------->
+<div id="mainCarousel" class="carousel slide">  
+
+    <div class="carousel-inner">  
+        
+        <div class="carousel-item active">
+            <div class="overlay-image" style="background-image:url(https://images4.alphacoders.com/105/1057659.jpg)">
+            </div>
+            <div class="carousel-container">
+                <h1>Players</h1>
+                <p>Look At The Players For The Oklahoma City Thunders 2024</p>
+                <button class="btn btn-danger">Play Now</button>
+            </div>
+        </div>
+        
+        <div class="carousel-item">
+            <div class="overlay-image" style="background-image:url('https://procodingclass.github.io/tynker-assets/images/movieCarousel.png')">
+            </div>
+            <div class="carousel-container">
+                <h1>Movies</h1>
+                <p>Watch latest movies online with our web app</p>
+                <button class="btn btn-danger">Watch Now</button>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <div class="overlay-image" style="background-image:url('https://procodingclass.github.io/tynker-assets/images/booksCarousel.png')">
+            </div>
+            <div class="carousel-container">
+                <h1>Books</h1>
+                    <p>Read E-books to expand your knowledge</p>
+                    <button class="btn btn-danger">Read Now</button>
+            </div>
+        </div>
+</div>
+    
+    <a class="carousel-control-prev" href="#mainCarousel" data-bs-slide="prev">
+       <span class="carousel-control-prev-icon"></span>
+    </a>
+
+    <a class="carousel-control-next" href="#mainCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </a> 
+    
+</div>  
+<!------------------ Carousel ends-------------------->
+
+    
+<!----------------------Row 1 Music----------------------->   
+<div class="container-fluid position-static my-5" style="width:90%;">    
+<div class="row mb-2">
+  <div class="col-6 " >
+      <h3>Players</h3>
+    </div>  
+   
+  <div class="col-6 text-end"> 
+    <button class="btn btn-light" style="padding-bottom:10px;" onclick="window.location.href = 'players.html';">
+    Show More
+    </button>  
+  </div>  
+</div>  
+    
+<div class="row g-3">
+    <!-- 1st Music -->
+    <div class="col-md-4">
+        <div class="card border-0 bg-dark">
+            <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/1628983.png" class="card-img-top">
+            <div class="card-img-overlay d-flex justify-content-end flex-column">
+                <h5>SGA</h5>
+                <p>Point Guard</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- 2nd Music -->
+    <div class="col-md-4">
+        <div class="card border-0 bg-dark">
+            <img src="https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/4433255.png&w=350&h=254" class="card-img-top">
+            <div class="card-img-overlay d-flex justify-content-end flex-column">
+                <h5>Chet Holmgren</h5>
+                <p>Forward Center</p>
+            </div>
+        </div>
+        
+    </div>
+
+    <!-- 3rd Music -->
+    <div class="col-md-4">
+        <div class="card border-0 bg-dark">
+            <img src="https://cdn.nba.com/headshots/nba/latest/1040x760/1627936.png" class="card-img-top">
+            <div class="card-img-overlay d-flex justify-content-end flex-column">
+                <h5>Alex Caruso</h5>
+                <p>Point Guard</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+  
+
+</div>
+
+  
+    
+<!----------------------Row 2 Movies----------------------->   
+
+<!----------------------Row 2 Movies----------------------->   
+
+<div class="container-fluid position-static my-0" style="width:90%;" id="movie">    
+<div class="row mb-2">
+  <div class="col-6 " >
+      <h3>Clips</h3>
+    </div>
+      
+  <div class="col-6 text-end">
+    <button class="btn btn-light" style="padding-bottom:10px;" onclick="window.location.href = 'movie.html';">
+    Show More
+    </button>
+  </div>   
+</div>   
+<div class="row g-2" >  
+         <!-- 1st movie card -->
+        <div class="col-md-3">
+            <a href="https://procodingclass.github.io/tynker-assets/videos/movie1.mp4" class="text-decoration-none" target="moviePlayer">  
+             
+                <div class="card border-0">
+                    <img src="https://procodingclass.github.io/tynker-assets/thumbnails/movie1.png" > 
+                    
+                    <div class="card-img-overlay text-center">
+                        <button class="btn-danger">
+                            <i class="bi bi-play-fill"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="card-body bg-dark bg-gradient text-white">
+                        <h5 class="text-danger">Jungle Safari 
+                            <span class="badge bg-danger">New</span>  
+                            <div class="text-warning">
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                            </div>    
+                        </h5> 
+
+                        <p>
+                            Adventure | English
+                            <br>
+                            Year: 2018 
+                        </p>  
+                        
+                        <p>Details: It is the story of an enthusiastic young adventurer who follows his dreams into the Amazon jungle and how he uses modern-day science to survive.</p> 
+                    </div>
+                </div>
+            </a> 
+       </div>
+         
+      <!-- 2nd movie card-->
+        <div class="col-md-3">
+            <a href="https://procodingclass.github.io/tynker-assets/videos/movie2.mp4" class="text-decoration-none" target="moviePlayer">  
+             
+                <div class="card border-0">
+                    <img src="https://procodingclass.github.io/tynker-assets/thumbnails/movie2.png" > 
+                    
+                    <div class="card-img-overlay text-center">
+                        <button class="btn-danger">
+                            <i class="bi bi-play-fill"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="card-body bg-dark bg-gradient text-white">
+                        <h5 class="text-danger">Exploration 
+                            <span class="badge bg-danger">New</span>  
+                            <div class="text-warning">
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-half"></i> 
+                            </div>    
+                        </h5> 
+
+                        <p>
+                            Sci-fi | English
+                            <br>
+                            Year: 2018 
+                        </p>  
+                        
+                        <p>Details: This is a tale of survival of some aliens who leave their planet in search of a new home and crash land on Earth, and the obstacles they face as they try to settle in an unfamiliar planet.</p> 
+                    </div>
+                </div>
+            </a> 
+       </div>
+
+    <!-- 3rd movie card-->
+        <div class="col-md-3">
+            <a href="https://procodingclass.github.io/tynker-assets/videos/movie3.mp4" class="text-decoration-none" target="moviePlayer">  
+             
+                <div class="card border-0">
+                    <img src="https://procodingclass.github.io/tynker-assets/thumbnails/movie3.png" > 
+                    
+                    <div class="card-img-overlay text-center">
+                        <button class="btn-danger">
+                            <i class="bi bi-play-fill"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="card-body bg-dark bg-gradient text-white">
+                        <h5 class="text-danger">James the Jockey 
+                            <span class="badge bg-danger">New</span>  
+                            <div class="text-warning">
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                            </div>    
+                        </h5> 
+
+                        <p>
+                            Sports | English
+                            <br>
+                            Year: 2018 
+                        </p>  
+                        
+                        <p>Details: This is the story of James, who unaware of what to do with his life accidentally came across the derby race, fell in love with it, and defeated all odds to become the greatest jockey of all time.</p> 
+                    </div>
+                </div>
+            </a> 
+       </div>
+
+
+    <!-- 4th movie card-->
+        <div class="col-md-3">
+            <a href="https://procodingclass.github.io/tynker-assets/videos/movie4.mp4" class="text-decoration-none" target="moviePlayer">  
+             
+                <div class="card border-0">
+                    <img src="https://procodingclass.github.io/tynker-assets/thumbnails/movie4.png" > 
+                    
+                    <div class="card-img-overlay text-center">
+                        <button class="btn-danger">
+                            <i class="bi bi-play-fill"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="card-body bg-dark bg-gradient text-white">
+                        <h5 class="text-danger">Type VI Civilization 
+                            <span class="badge bg-danger">New</span>  
+                            <div class="text-warning">
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i>
+                                <i class="bi-star-fill"></i> 
+                            </div>    
+                        </h5> 
+
+                        <p>
+                            Sci-fi | English
+                            <br>
+                            Year: 2018 
+                        </p>  
+                        
+                        <p>Details: The plot revolves around how the human race has advanced technologically to the point where it can change human genetics into any kind of mechanical object and manipulate time by bending the laws of nature.</p> 
+                    </div>
+                </div>
+            </a> 
+       </div>
+         
+     </div>     
+</div>
+
+<!----------------------Row 3 books----------------------->   
+    
+<div class="container-fluid position-static my-5" style="width:90%;">   
+<div class="row mb-3">
+  <div class="col-6 " >
+      <h3>Books</h3>
+    </div>  
+    
+   <div class="col-6 text-end">
+        <button class="btn btn-light" style="padding-bottom:10px;" onclick="window.location.href = 'books.html';">
+        Show More
+    </button>
+  </div> 
+</div>       
+<div class="row mt-2 g-2">
+        <!-- 1st Book -->
+        <div class="col-md-3" data-bs-toggle="modal" data-bs-target="#book1">
+            <div class="card border-0">
+                <img src="https://procodingclass.github.io/tynker-assets/thumbnails/book1.png">
+                <div class="card-body bg-dark bg-gradient">
+                    <h5>Andersen's Fairy Tales</h5>
+                    <p>Author: By Hans Christian Andersen</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="modal fade" id="book1">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content" >
+                <div class="modal-header text-dark">
+                  <h4>Andersen's Fairy Tales</h4>
+                  <button data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://procodingclass.github.io/tynker-assets/books/book1.pdf" >
+                    </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <!-- 2nd Book -->
+        <div class="col-md-3" data-bs-toggle="modal" data-bs-target="#book2">
+            <div class="card border-0">
+                <img src="https://procodingclass.github.io/tynker-assets/thumbnails/book2.png">
+                <div class="card-body bg-dark bg-gradient">
+                    <h5>Aviation book</h5>
+                    <p>Author: Mcloughlin Brothers</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="modal fade" id="book2">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content" >
+                <div class="modal-header text-dark">
+                  <h4>Aviation book</h4>
+                  <button data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://procodingclass.github.io/tynker-assets/books/book2.pdf" >
+                    </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+        <!-- 3rd Book -->
+        <div class="col-md-3" data-bs-toggle="modal" data-bs-target="#book3">
+            <div class="card border-0">
+                <img src="https://procodingclass.github.io/tynker-assets/thumbnails/book3.png">
+                <div class="card-body bg-dark bg-gradient">
+                    <h5>Big Dummy's Guide to the Internet</h5>
+                    <p>Electronic Frontier Foundation</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="modal fade" id="book3">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content" >
+                <div class="modal-header text-dark">
+                  <h4>Big Dummy's Guide to the Internet</h4>
+                  <button data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://procodingclass.github.io/tynker-assets/books/book3.pdf" >
+                    </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <!-- 4th Book -->
+        <div class="col-md-3" data-bs-toggle="modal" data-bs-target="#book4">
+            <div class="card border-0">
+                <img src="https://procodingclass.github.io/tynker-assets/thumbnails/book4.png">
+                <div class="card-body bg-dark bg-gradient">
+                    <h5>From the Earth to the Moon and Round the Moon</h5>
+                    <p>Author: Jules Verne</p>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="modal fade" id="book4">
+            <div class="modal-dialog">
+              <!-- Modal content-->
+              <div class="modal-content" >
+                <div class="modal-header text-dark">
+                  <h4>From the Earth to the Moon and Round the Moon</h4>
+                  <button data-bs-dismiss="modal" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <iframe src="https://drive.google.com/viewerng/viewer?embedded=true&url=https://procodingclass.github.io/tynker-assets/books/book4.pdf" >
+                    </iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+
+</div>
+</div>
+
+<!------------------------ Books ends ---------------------------------->
+
+<div class="row m-3">
+    <h2 class="text-center">Help us to improve</h2>
+    <img src="https://procodingclass.github.io/tynker-assets/images/contactUs.png" class="col-sm-4 col-12 mb-3">
+    
+    <!-- Add onsubmit attribute with value as return false; -->
+    <form class="col-sm-7 col-12">
+        <div class="row">
+          <div class="col-sm-6 mb-3">
+              
+            <!-- Add id as name and required attribute to validate user name is present or not -->
+            <input type="text" class="form-control" placeholder="Name">
+          </div>
+
+          <div class="col-sm-6 mb-3">
+              
+            <!-- Add id as email and required attribute to validate user email address is present or not -->
+            <input type="email" class="form-control" placeholder="Email">
+          </div>
+        </div>
+
+        <!-- Add id as feedback and required attribute to validate user feedback is present or not -->
+        <textarea rows="4" cols="50" class="form-control mb-3" placeholder="Feedback" ></textarea>
+        <br>
+
+        <p class="m-0">Collections you liked on THUNDER</p>
+        <input class="form-check-input" type="checkbox" id="checkBox1">
+        <label for="checkBox1">Music</label>
+
+        <input class="form-check-input" type="checkbox" id="checkBox2">
+        <label for="checkBox2">Movies</label>
+
+        <!-- Create input field as checkbox last for selecting Books option and add class as form-check-input -->
+
+        
+        <!-- Create label for the checkbox with text as Books -->
+
+        <br>
+        <br>
+
+        <p class="m-0">How satisfied are you with THUNDER?</p>
+        <input type="radio" class="form-check-input" id="radioButton1" name="radioButton">
+        <label for="radioButton1">Satisfied</label>
+
+        <input type="radio" class="form-check-input" id="radioButton2" name="radioButton">
+        <label for="radioButton2">Neutral</label>
+        
+        <!-- Create input field as radio button for selecting Unsatisfied option and add class as form-check-input -->
+
+        
+        <!-- Create label for the radio button with text as Unsatisfied -->
+
+        <br><br>
+        
+        <!-- Add attribute as onclick and set value as submitForm() for activating the form submission -->
+        <input type="submit" class="btn btn-success w-100">
+
+    </form>
+</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
